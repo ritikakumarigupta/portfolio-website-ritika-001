@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      position: fixed;
+      width: 100%;
+      background: rgba(15, 23, 42, 0.95);
+      padding: 15px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    header h1 {
+      color: #38bdf8;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 100px 10%;
+      min-height: 100vh;
+    }
+
+    #hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    #hero span {
+      color: #38bdf8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+    }
+
+    @media (max-width: 768px) {
+      #hero h2 {
+        font-size: 2rem;
+      }
+
+      header {
+        padding: 15px 5%;
+      }
+
+      section {
+        padding: 100px 5%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>YourName</h1>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div>style="background-image:url(" whatsapp image pm jpeg")</div>
+    <h2>Hello, I'm <span>Ritika Kumari Gupta</span></h2>
+    <p>A passionate Web Developer creating modern and responsive websites.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a developer skilled in HTML, CSS, JavaScript,c, and modern frameworks.
+      I enjoy building clean and user-friendly interfaces.
+    </p>
+  </section>
+
+
+
+  <section id="contact">
+    <h2>Contact Me 9241732910</h2>
+    <p>Email: ritikakumarigupta372@gmail.com</p>
+    <p>linkedin: Ritika Kumari Gupta</p>
+    <p>github: ritikakumarigupta</p>
+    <p> resume:</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
